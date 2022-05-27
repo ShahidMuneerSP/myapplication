@@ -7,6 +7,7 @@ import android.os.Bundle;
 import android.os.Handler;
 
 import com.example.myapplication.R;
+import com.example.myapplication.work1.MainActivity1;
 
 public class splash extends AppCompatActivity {
 
@@ -19,7 +20,7 @@ public class splash extends AppCompatActivity {
         obj.postDelayed(new Runnable() {
             @Override
             public void run() {
-                Intent intent=new Intent(getApplicationContext(),FoodDetails.class);
+                Intent intent=new Intent(getApplicationContext(), MainActivity1.class);
                 startActivity(intent);
             }
         },5000);
