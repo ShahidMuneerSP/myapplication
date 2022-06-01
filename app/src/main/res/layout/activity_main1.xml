@@ -42,12 +42,12 @@
         android:queryHint="Search by recipe or ingredients">
     </SearchView>
 
-        <ListView
-            android:id="@+id/myList"
-            android:layout_width="match_parent"
-            android:layout_height="fill_parent"
-            android:layout_marginTop="10dp">
+    <ListView
+        android:id="@+id/myList"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginTop="10dp">
 
-        </ListView>
+    </ListView>
 
 </RelativeLayout>

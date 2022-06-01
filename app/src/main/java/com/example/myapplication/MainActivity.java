@@ -16,6 +16,7 @@ import android.widget.ImageView;
 import android.widget.NumberPicker;
 import android.widget.TimePicker;
 
+import com.example.myapplication.notifications.ServiceActivity;
 import com.example.myapplication.samples.BluetoothActivity;
 import com.example.myapplication.samples.CameraActivity;
 import com.example.myapplication.samples.CardWithRecycler;
@@ -64,7 +65,7 @@ public class MainActivity extends AppCompatActivity {
                 } catch (InterruptedException e) {
                     e.printStackTrace();
                 }
-                Intent intent=new Intent(getApplicationContext(), SqliteWithoutOpenHelper.class);
+                Intent intent=new Intent(getApplicationContext(), ServiceActivity.class);
                 startActivity(intent);
             }
         };

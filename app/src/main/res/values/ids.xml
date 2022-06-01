@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="idRVCourses" type="id" />
+    <item name="idTVCourseName" type="id" />
+    <item name="idTVCourseDesciption" type="id" />
+</resources>
