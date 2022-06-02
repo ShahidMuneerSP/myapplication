@@ -34,11 +34,9 @@ public class BroadActivity extends Activity {
             public void onClick(View v) {
                 IntentFilter intentfilter = null;
                 BroadActivity.this.registerReceiver(broadcastreciever, null);
-
             }
         });
     }
-
     private BroadcastReceiver broadcastreciever = new BroadcastReceiver() {
         @Override
         public void onReceive(Context context, Intent intent) {
